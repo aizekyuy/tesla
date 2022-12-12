@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    background-image: url("https://www.allcarz.ru/wp-content/uploads/2017/07/foto-novitec-model-x_03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.logo {
+    width: 124px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 20% 30% 20%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.li_last {
+    margin: 0;
+}
+
+nav ul li:hover {
+    background: rgba(128, 128, 128, 0.404);
+}
